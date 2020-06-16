@@ -12,7 +12,7 @@ EFI partition with support for macOS Catalina 10.15.4 with Clover 5118
 - USB 3.0
 - Graphics acceleration
 - 3,5mm jack & Microphone
-- HDMI output ( Activated on config.plist and RGB Fixed with script )
+- HDMI output ( Activated on config.plist and RGB Fixed with script https://gist.github.com/adaugherity/7435890 )
 - Sleep
 - Bluetooth
 - Webcam
