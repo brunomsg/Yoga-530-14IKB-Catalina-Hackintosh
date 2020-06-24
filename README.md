@@ -11,8 +11,7 @@ EFI partition with support for macOS Catalina 10.15.4 with Clover 5118
 - Keyboard
 - USB 3.0
 - Graphics acceleration
-- 3,5mm jack & Microphone
-- HDMI output ( Activated on config.plist and RGB Fixed with script https://gist.github.com/adaugherity/7435890 )
+- 3,5mm jack, Speakers and Microphone (ALC236)
 - Sleep
 - Bluetooth
 - Webcam
@@ -51,12 +50,12 @@ EFI partition with support for macOS Catalina 10.15.4 with Clover 5118
 
 ### What DOESNT Work
 - Touchscreen and active stylus
-- Internal Speakers
 - hibernation
 - Brightness controls
 - TouchID (probably never will)
+- HDMI output ( Activated on config.plist and RGB Fixed with script https://gist.github.com/adaugherity/7435890 ) After upgrade to 10.15.5 it crashes my laptop.
 
 ### Work in progress
 - Brightness controls expect F14 and F15 so must be set manually to F11 and F12
 - Hotkeys (Refresh, Airplane mode, Lock, Webcam On/Off, Mic On/Off)
-- Full TrackPad and Touchscreen support
+- HDMI output
